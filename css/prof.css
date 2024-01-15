@@ -254,7 +254,7 @@ main {
 
 /* Style the footer */
 footer {
-    background-color:#15bdf5;
+    background-color: #155b72;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -624,14 +624,15 @@ nav a {
 /* Professional section styling */
 /* services section styling */
 .services, .teams{
-    color:#fff;
-    background: #111;
+    color:#000000;
+    background: #ffffff;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 .services .title {
     text-align: center; /* Center-align the text */
     padding-bottom: 2%;
+    margin-right: 40%;
 }
 .services .title::before,
 .teams .title::before{
@@ -643,7 +644,7 @@ nav a {
 .services .serv-content .card{
     width: calc(33% - 20px);
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    background: #222;
+    background-color: #155b72;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -674,8 +675,18 @@ nav a {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+    color: #fff; /* Set the text color to white */
 
+}
+.services .serv-content .card p {
+    color: #fff; /* Set the text color to white */
+}
+.teams .card p {
+    color: #fff; /* Set the text color to white */
+}
+.teams .card .text {
+    color: #fff; /* Set the text color to white */
+}
 .services .serv-content .card {
     width: calc(100% - 20px); /* Full width on small screens */
     margin: 0 10px 20px; /* Adjust margin for spacing */
@@ -920,7 +931,7 @@ padding-bottom:2% ;
     padding-bottom: 2%;
 }
 .teams .carousel .card{
-    background: #222;
+    background-color: #155b72;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
